@@ -43,7 +43,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-      
+          pip install --upgrade akshare
       - name: 创建必要目录
         run: |
           mkdir -p data logs reports
